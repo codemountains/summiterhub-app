@@ -1,0 +1,12 @@
+.forgotPasswordContainer {
+    text-align: center;
+}
+
+.forgotPasswordLink {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.keepLoggedIn {
+    font-size: 14px;
+}
