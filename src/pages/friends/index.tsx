@@ -3,12 +3,12 @@ import Layout from "../../components/Layout";
 import {Container} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 
-const IndexParties = () => {
+const IndexFriends = () => {
 	return (
-		<Layout title="Party">
+		<Layout title='Friend'>
 			<Container maxWidth='lg'>
 				<h3>
-					パーティ一覧
+					フレンド一覧
 				</h3>
 				<Typography>
 					開発中...
@@ -18,4 +18,4 @@ const IndexParties = () => {
 	);
 };
 
-export default IndexParties;
+export default IndexFriends;

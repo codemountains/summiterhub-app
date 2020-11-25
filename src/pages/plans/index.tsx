@@ -1,12 +1,11 @@
 import React from "react";
 import Layout from "../../components/Layout";
+import PlanList from "../../features/plan/PlanList";
 
 const IndexPlans = () => {
 	return (
 		<Layout title="Plan">
-			<h1>
-				計画書
-			</h1>
+			<PlanList/>
 		</Layout>
 	);
 };

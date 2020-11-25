@@ -2,7 +2,7 @@ import React from "react";
 import NextDocument, {Html, Head, Main, NextScript} from "next/document";
 import {ServerStyleSheets} from "@material-ui/styles";
 import Document from "next/document";
-import style from "../static/indexStyle";
+import style from "../static/styles/indexStyle";
 
 type Props = {}
 

@@ -1,0 +1,27 @@
+.forgotPasswordContainer {
+    text-align: center;
+}
+
+.forgotPasswordLink {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.keepLoggedIn {
+    font-size: 14px;
+}
+
+.passwordLengthAttention {
+    font-size: 12px;
+    margin: 0 16px 8px 16px;
+}
+
+.validationError {
+    margin: 0 14px;
+    font-size: 12px;
+    display: flex;
+}
+
+.validationError span {
+    margin: auto 4px;
+}

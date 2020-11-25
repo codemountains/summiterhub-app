@@ -1,12 +1,11 @@
 import React from "react";
 import Layout from "../../components/Layout";
+import GearList from "../../features/gear/GearList";
 
 const IndexGears = () => {
 	return (
 		<Layout title="Gear">
-			<h1>
-				装備
-			</h1>
+			<GearList/>
 		</Layout>
 	);
 };

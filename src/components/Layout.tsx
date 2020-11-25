@@ -1,11 +1,11 @@
 import React, {ReactNode} from 'react'
 import Head from 'next/head'
 import NavBar from "./NavBar";
-import style from "../static/layoutStyle";
+import style from "../static/styles/layoutStyle";
 
 type Props = {
-	children?: ReactNode
-	title?: string
+	children?: ReactNode;
+	title?: string;
 }
 
 const Layout = ({children, title = 'SummiterHub'}: Props) => {
@@ -21,9 +21,9 @@ const Layout = ({children, title = 'SummiterHub'}: Props) => {
 			<div className="childrenContainer">
 				{children}
 			</div>
-			<footer>
+			<footer className="footerContainer">
 				<hr/>
-				<span>I'm here to stay (Footer)</span>
+				{/*<span>I'm here to stay (Footer)</span>*/}
 			</footer>
 		</div>
 	);

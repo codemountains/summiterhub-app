@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
+import Auth from "../../features/authentication/Auth";
 
 const indexSignUp: React.FC = () => {
 	return (
@@ -7,6 +8,7 @@ const indexSignUp: React.FC = () => {
 			<h1>
 				Join SummiterHub
 			</h1>
+			<Auth isLoginView={false}/>
 		</Layout>
 	);
 };
