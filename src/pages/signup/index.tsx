@@ -5,9 +5,6 @@ import Auth from "../../features/authentication/Auth";
 const indexSignUp: React.FC = () => {
 	return (
 		<Layout title="Join">
-			<h1>
-				Join SummiterHub
-			</h1>
 			<Auth isLoginView={false}/>
 		</Layout>
 	);
