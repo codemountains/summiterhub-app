@@ -20,17 +20,53 @@ const theme = createMuiTheme({
 			dark: '#494949',
 			contrastText: '#ffffff',
 		},
+		error: {
+			light: '#ff867a',
+			main: '#ef534e',
+			dark: '#b61825',
+			contrastText: '#ffffff',
+		},
+		warning: {
+			light: '#ffd95d',
+			main: '#ffa726',
+			dark: '#c77800',
+			contrastText: '#ffffff',
+		},
+		info: {
+			light: '#80d6ff',
+			main: '#42a5f5',
+			dark: '#0077c2',
+			contrastText: '#ffffff',
+		},
+		success: {
+			light: '#96ed98',
+			main: '#64ba69',
+			dark: '#31893d',
+			contrastText: '#ffffff',
+		},
 	},
 	typography: {
 		fontSize: 14,
+		fontFamily: [
+			'-apple-system',
+			'BlinkMacSystemFont',
+			'"Segoe UI"',
+			'Roboto',
+			'"Helvetica Neue"',
+			'Arial',
+			'sans-serif',
+			'"Apple Color Emoji"',
+			'"Segoe UI Emoji"',
+			'"Segoe UI Symbol"',
+		].join(','),
 		button: {
-			textTransform: "none"
-		}
+			textTransform: 'none'
+		},
 	},
 	props: {
 		MuiTextField: {
-			variant: "outlined"
-		}
+			variant: 'outlined'
+		},
 	},
 })
 
@@ -51,7 +87,7 @@ const SummiterHubApp = ({Component, pageProps}: AppProps) => {
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 					<title/>
 				</Head>
-				<Component {...pageProps} />
+				<Component {...pageProps}/>
 			</Provider>
 		</MuiThemeProvider>
 	);
