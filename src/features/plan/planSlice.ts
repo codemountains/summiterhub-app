@@ -834,7 +834,7 @@ export const planSlice = createSlice({
 		builder.addCase(
 			fetchAsyncPostPlan.rejected,
 			() => {
-				alert(fetchAsyncPostPlan.rejected);
+				// alert(fetchAsyncPostPlan.rejected);
 			}
 		);
 		builder.addCase(
