@@ -164,7 +164,7 @@ export const authSlice = createSlice({
 		builder.addCase(
 			fetchAsyncLogin.rejected,
 			() => {
-				alert('fetchAsyncLogin.rejected');
+				// alert('fetchAsyncLogin.rejected');
 			}
 		);
 		builder.addCase(
@@ -193,7 +193,7 @@ export const authSlice = createSlice({
 		builder.addCase(
 			fetchAsyncGetUserDetail.rejected,
 			() => {
-				alert('fetchAsyncGetUserDetail.rejected');
+				// alert('fetchAsyncGetUserDetail.rejected');
 			}
 		);
 	}
