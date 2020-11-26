@@ -60,9 +60,6 @@ const PlanEditRoute: React.FC<PROPS> = ({route, index}: PROPS) => {
 	// 日付削除
 	const handleDeleteDate = (route: PLAN_ROUTE) => {
 		dispatch(deletePlanRoute(route));
-		// if (route.created_user !== '') {
-		// 	dispatch(deletePlanRoute(route));
-		// }
 	}
 
 	// ルート詳細削除
@@ -72,13 +69,6 @@ const PlanEditRoute: React.FC<PROPS> = ({route, index}: PROPS) => {
 			detail: detail
 		}
 		dispatch(deletePlanRouteDetail(deleteRequest));
-		// if (detail.created_user !== '') {
-		// 	const deleteRequest: DELETE_PLAN_ROUTE_DETAIL_REQUEST = {
-		// 		plan_id: planId,
-		// 		detail: detail
-		// 	}
-		// 	dispatch(deletePlanRouteDetail(deleteRequest));
-		// }
 	}
 
 	return (
