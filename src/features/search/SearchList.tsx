@@ -56,7 +56,7 @@ const SearchList: React.FC = () => {
 		<div style={{marginTop: '16px'}}>
 			<Container maxWidth='lg'>
 				<div className={classes.titleContainer}>
-					<Grid container xs={12}>
+					<Grid container>
 						<Grid item xs={6}>
 							<Typography variant='h4' color='textSecondary'>
 								みんなの登山計画
